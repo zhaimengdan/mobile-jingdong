@@ -1,0 +1,225 @@
+body,html{
+	font-family: PingFangSC-Regular,Helvetica,Droid Sans,Arial,sans-serif;
+	overflow:scroll;
+	height: 100%;width: 100%;
+	overflow:hidden;overflow-y: scroll;
+}
+.head{
+	width: 7.5rem;height: 0.88rem;
+	position: fixed;top: 0;left: 0;
+	border-bottom: 0.02rem solid #F7F7F7;
+	z-index: 100;
+	background: white;
+	display: flex;justify-content: space-between;align-items: center;
+}
+.head-l{
+	width: 0.8rem;height: 0.88rem;
+	/* background: paleturquoise; */
+}
+.head-l p{
+	width: 0.4rem;height: 0.36rem;
+	margin: 0.28rem 0 0 0.3rem;
+	background: url(../img/index3.png)no-repeat;
+	background-size: 100% 100%;
+}
+.head-c{
+	width: 5.46rem;height: 0.6rem;
+	background: #F7F7F7;
+	border-radius: 0.88rem;
+}
+.head-r{
+	width: 0.8rem;height: 0.88rem;
+	/* background: paleturquoise; */
+}
+.head-r p{
+	margin: 0.24rem 0.24rem 0.24rem 0.2rem;
+	width: 0.4rem;height: 0.4rem;
+    background: url(../img/dian.png)no-repeat 50%;
+	background-size: 0.4rem;
+}
+.logo2{
+	width: 0.36rem;
+    height: 0.3rem;
+	background: url(../img/jd-sprites.png)no-repeat;
+	background-size: 4rem;
+	background-position: -1.6rem 0;
+	margin: 0.16rem 0.05rem 0 0.3rem;
+	float: left;
+}
+.logo-t{
+	display: block;
+	width: 3.9rem;height: 0.6rem;
+	font-size: 0.24rem;
+    color: #232326;
+    padding-left: 0.1rem;
+	margin: 0 0 0 0.1rem;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	line-height: 0.6rem;
+	border: 0;
+    background: 0 0;
+	/* transform: translateY(); */
+}
+.box{
+	width: 100%;height: auto;
+	min-height: 100%;
+	margin-top: 0.9rem;
+}
+.left{
+	width: 1.72rem;height:100%;
+	overflow-y: auto;
+	background: #f8f8f8;
+	float: left;
+}
+.left ul li{
+	width: 1.7rem;
+	height: 0.92rem;
+    line-height: 0.92rem;
+    text-align: center;
+    position: relative;
+	font-size: 0.28rem;
+	color: #333;
+}
+/* ::-webkit-scrollbar {width: 0px;}
+::-webkit-scrollbar {display: none;} */
+.left ul li.on{
+	color: #e93b3d;
+	background: #fff;
+}
+.right{
+	height: auto;
+    min-height: 100%;
+    width: 100%;
+    font-size: 0.24rem;
+    color: #252525;
+	/* background: palegoldenrod; */
+	/* overflow-y: scroll; *//* overflow-y: auto; */
+}
+.right ul{
+	overflow: hidden;
+    height: auto;
+    width: auto;
+	margin-left: 1.72rem;
+	/* background: palevioletred; */
+}
+.right ul li{
+	width: 100%;height: auto;
+	overflow: hidden;
+    padding-bottom: 0.2rem;
+	display: none;
+}
+.gift{
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    margin: 0.14rem 0.14rem 0;
+	width: 5.5rem;
+	height: 1.8678rem;
+}
+.gift img{
+	width: 100%;height: 100%;
+}
+.hot{
+	margin: 0.38rem 0.14rem 0;
+	width: 5.5rem;
+	/* height: 9rem; */
+	height: auto;
+	/* overflow: hidden; */
+}
+.hot a{
+	float: right;
+    height: 0.28rem;
+	display: flex;justify-content: space-between;align-items: center;
+}
+.hot a i{
+	display: block;
+    line-height: 0;
+    width: 0.24rem;
+    height: 0.24rem;
+}
+.rank-icon{
+	background: url(../img/index4.png)no-repeat;
+	background-size: 100% 100%;
+}
+.hot a span{
+	display: block;
+    color: #848689;
+    font-size: 0.2rem;
+    /* line-height: 0.2rem; */
+    margin-left: 0.08rem;
+}
+.right-arrow{
+	background: url(../img/index5.png)no-repeat;
+	background-size: 100% 100%;
+}
+.hot h4{
+	font-size: 0.28rem;
+    color: #333;
+	margin: 0;
+    padding: 0;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+.ul{
+	border: 0;
+    font-size: 0;
+    padding: 0.14rem 0.2rem 0;
+    overflow: hidden;
+	margin-top: 0.18rem;
+    background-color: #fff;
+}
+.ul p{
+	width: 32.8%;
+    float: left;
+    text-align: center;
+	margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.ul p img{
+	display: block;
+	margin: auto;
+	width: 1.4rem;
+	height: 1.4rem;
+}
+.ul p span{
+	color: #333;
+    height: 0.7rem;
+    margin-top: 0.04rem;
+	font-size: 0.24rem;
+	width: 100%;
+	display: block;
+    -webkit-box-pack: start;
+}
+.ul-d{
+	margin: 0.38rem 0.14rem 0;
+	width: 5.5rem;height: auto;
+}
+.commonNav{
+	width: 100%;height: 1rem;
+	margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 31;
+    box-sizing: border-box;
+    width: 100%;
+    list-style: none;
+	background-color: rgb(255, 255, 255);
+	-webkit-box-shadow: 0 0 0.2rem 0 hsla(0,6%,58%,.6);
+}
+.commonNav a{
+	width: 19.8%;height: 1rem;
+	float: left;
+    font-size: 0.32rem;
+    background-color: transparent;
+    text-align: center;
+}
+.commonNav a img{
+	width: 1.2rem;height: 0.92rem;
+	display: block;
+	margin: auto;
+	margin-top: 0.04rem;
+}

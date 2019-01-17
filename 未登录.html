@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/weidenglu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="swiper-4.4.2/dist/css/swiper.css"/>
+		<script src="js/rem2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="swiper-4.4.2/dist/js/swiper.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<title>未登录</title>
+	</head>
+	<body>
+		<div class="head">
+				<div class="head-l">
+					<p></p>
+				</div>
+				<div class="head-c">
+					京东登录
+				</div>
+				<div class="head-r">
+					<p></p>
+				</div>
+		</div>
+		<div class="page">
+			<div class="wrap">
+				<div class="wrap-t">
+					<div class="input">
+						<input type="text" placeholder="用户名/邮箱/已验证手机" autocomplete="off" onkeyup="CtoH(this);" report-eventid="MLoginRegister_Username" />
+						<i class="icon"></i>
+					</div>
+					<div class="input">
+						<input type="text" placeholder="请输入密码" autocomplete="off" onkeyup="CtoH(this);" report-eventid="MLoginRegister_Username" style="width: 50%;"/>
+						<p></p>
+						<span>忘记密码</span>
+					</div>
+				</div>
+				<div class="notice"></div>
+				<a href="#">登 录</a>
+				<a href="#">一键登录</a>
+				<div class="duanxin">
+					<p>短信验证码登录</p>
+					<p>手机快速注册</p>
+				</div>
+				<div class="login-type">
+					<div class="quick-login">
+						<h4>其他登录方式</h4>
+						<div class="QW">
+							<div class="QQ">
+								<img src="img/index12.png" >
+								<span class="txt-qq">QQ</span>
+							</div>
+							<!-- <div class="QQ WX"></div> -->
+						</div>
+					</div>
+				</div>
+				<div class="agreement-tips">
+					登录即代表您已同意
+					<p>京东隐私政策</p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(".input input").click(function(){
+			$(".input i").show()
+		})
+	</script>
+</html>
